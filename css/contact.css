@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box; /* Padding is part of total width */
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*=========================
+Navigation ===================*/
+a.nav-item {
+  font-size: 18px;
+  color: white!important;
+}
+
+/*=========================
+Funds Hero ===================*/
+
+.contact_img img{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.contact_hero {
+  padding: 0rem 0rem;
+}
+
+.contact_hero h1 {
+  padding-top: 8rem;
+  padding-left:4rem;
+  padding-right:4rem;
+  text-align: left;
+  color: #002060;
+  font-size: 5vw;
+  font-weight: 200;
+
+}
+
+.contact_hero h2 {
+  text-align: left;
+  font-size: 1vw;
+  padding: 4rem 4rem;
+}
+
+
+/*=========================
+form ===================*/
+
+.form-group , .form-check{
+    padding: 0rem 4rem;
+}
+
+.form {
+
+}
+
+
+
+/*=========================
+Footer ===================*/
+footer {
+position: relative;
+top: 8rem;
+padding-left: 4rem;
+padding-right: 4rem;
+background-color: #09666A;
+color: white;
+height: 25rem;
+
+
+}
+
+.contact_icon {
+position: relative;
+top:6rem;
+}
+
+
+
+
+.contact_icon figcaption {
+  position: relative;
+  top:-2.5rem;
+
+padding-left: 4rem;
+padding-right: 4rem;
+position: relative;
+font-size: 18px;
+
+
+}
+
+footer h3 {
+  text-align: center;
+  padding-bottom: 4rem;
+position: relative;
+top:-7rem;
+font-size: 18px;
+
+
+
+}
+
+footer h4 {
+  position: relative;
+  top:-2rem;
+  text-align: center;
+  font-size: 12px;
+  left: 5rem;
+}
+
+.follow_us {
+  float: right;
+  font-size: 18px;
+  position: relative;
+  display: block;
+  left:-4rem;
+
+  top:-16rem;
+}
+
+.follow_us figure {
+
+  font-size: 18px;
+
+  float: right;
+
+  top:-10rem;
+}
+
+.follow_us img {
+  padding-top:1rem;
+  padding-right: 1rem;
+
+}
