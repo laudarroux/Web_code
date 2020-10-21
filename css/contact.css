@@ -68,14 +68,15 @@ padding-left: 4rem;
 padding-right: 4rem;
 background-color: #09666A;
 color: white;
-height: 25rem;
+height: 20em;
+width:100vw;
 
 
 }
 
 .contact_icon {
 position: relative;
-top:6rem;
+top:4rem;
 }
 
 
@@ -88,43 +89,34 @@ top:6rem;
 padding-left: 4rem;
 padding-right: 4rem;
 position: relative;
-font-size: 18px;
+font-size: 14px;
 
 
 }
 
 footer h3 {
-  text-align: center;
-  padding-bottom: 4rem;
-position: relative;
-top:-7rem;
-font-size: 18px;
-
-
-
-}
-
-footer h4 {
   position: relative;
-  top:-2rem;
+  top:4rem;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   left: 5rem;
 }
 
 .follow_us {
   float: right;
-  font-size: 18px;
+  font-size: 14px;
   position: relative;
-  display: block;
-  left:-4rem;
-
-  top:-16rem;
+  display: inline-block;
+  top:-8em;
 }
 
+.follow_us figcaption {
+padding-left: 1rem;
+
+}
 .follow_us figure {
 
-  font-size: 18px;
+  font-size: 14px;
 
   float: right;
 
@@ -133,6 +125,6 @@ footer h4 {
 
 .follow_us img {
   padding-top:1rem;
-  padding-right: 1rem;
+  padding-left: 1rem;
 
 }
