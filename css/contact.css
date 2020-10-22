@@ -10,10 +10,40 @@ body {
 /*=========================
 Navigation ===================*/
 a.nav-item {
-  font-size: 18px;
+  font-size: 2vw;
   color: white!important;
 }
 
+nav.navbar.navbar-expand-lg.navbar-dark {
+  padding:0% 10%;
+}
+
+.navbar-brand img{
+  width: 15vw;
+}
+
+button.navbar-toggler.ml-auto{
+  border: none;
+}
+.navbar-toggler-icon {
+  width: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand img{
+    width: 10vw;
+  }
+
+  a.nav-item {
+    font-size: 1vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav.navbar.navbar-expand-lg.navbar-dark {
+    padding:0% 4%;
+  }
+}
 /*=========================
 Funds Hero ===================*/
 
@@ -25,106 +55,205 @@ Funds Hero ===================*/
 }
 
 .contact_hero {
-  padding: 0rem 0rem;
+padding: 8% 10%;
 }
 
 .contact_hero h1 {
-  padding-top: 8rem;
-  padding-left:4rem;
-  padding-right:4rem;
   text-align: left;
   color: #002060;
-  font-size: 5vw;
+  font-size:5vw;
   font-weight: 200;
 
 }
 
 .contact_hero h2 {
   text-align: left;
-  font-size: 1vw;
-  padding: 4rem 4rem;
+  font-size: 2vw;
+  padding-bottom: 8%;
 }
 
 
+@media only screen and (min-width: 992px) {
+  .contact_hero {
+    padding: 8% 8%;
+  }
+
+  .contact_hero h1 {
+    font-size:4vw;
+  }
+
+  .contact_hero h2 {
+    font-size:1.5vw;
+      padding-bottom: 8%;
+  }
+}
 /*=========================
 form ===================*/
 
-.form-group , .form-check{
-    padding: 0rem 4rem;
+.btn button{
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 4px;
+
+  font-size: 2vw;
+  padding: 8% 20%;
 }
 
-.form {
+.btn {
+  padding: 0;
+}
+
+.message {
+  background-color: #09666A;
+  border: none;
+  color: WHITE;
 
 }
+
+@media only screen and (min-width: 992px) {
+
+  .message {
+    border-radius: 12px;
+    font-size: 2vw;
+    padding: 2% 4%;
+    margin-bottom:14%;
+
+  }
+
+}
+
+/*=========================
+head_office ===================*/
+.head_office {
+padding: 8% 10%;
+}
+
+.head_office h1 {
+  text-align: left;
+  color: #002060;
+  font-size:5vw;
+  font-weight: 200;
+
+}
+
+.head_office h2 {
+  text-align: left;
+  font-size: 2vw;
+  padding-bottom: 8%;
+}
+
+@media only screen and (min-width: 992px) {
+  .head_office {
+    padding: 4% 8%;
+  }
+
+  .head_office h1 {
+    font-size:4vw;
+  }
+
+  .head_officeh2 {
+    font-size:1.5vw;
+      padding-bottom: 8%;
+  }
+}
+
 
 
 
 /*=========================
 Footer ===================*/
-footer {
-position: relative;
-top: 8rem;
-padding-left: 4rem;
-padding-right: 4rem;
-background-color: #09666A;
-color: white;
-height: 20em;
-width:100vw;
-
-
-}
-
-.contact_icon {
-position: relative;
-top:4rem;
-}
-
-
-
-
-.contact_icon figcaption {
+.site-footer
+{
+  background-color: #09666A;
   position: relative;
-  top:-2.5rem;
-
-padding-left: 4rem;
-padding-right: 4rem;
-position: relative;
-font-size: 14px;
-
-
+  top: 16vw;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
 }
-
-footer h3 {
-  position: relative;
-  top:4rem;
-  text-align: center;
-  font-size: 10px;
-  left: 5rem;
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
 }
-
-.follow_us {
-  float: right;
-  font-size: 14px;
-  position: relative;
-  display: inline-block;
-  top:-8em;
+.site-footer hr.small
+{
+  margin:20px 0
 }
-
-.follow_us figcaption {
-padding-left: 1rem;
-
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
 }
-.follow_us figure {
-
-  font-size: 14px;
-
-  float: right;
-
-  top:-10rem;
+.site-footer a
+{
+  color:#737373;
 }
-
-.follow_us img {
-  padding-top:1rem;
-  padding-left: 1rem;
-
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:white;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
 }
