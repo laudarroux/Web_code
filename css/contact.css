@@ -45,7 +45,7 @@ button.navbar-toggler.ml-auto{
   }
 }
 /*=========================
-Funds Hero ===================*/
+contact Hero ===================*/
 
 .contact_img img{
   position: relative;
@@ -152,7 +152,7 @@ padding: 8% 10%;
     font-size:4vw;
   }
 
-  .head_officeh2 {
+  .head_office h2 {
     font-size:1.5vw;
       padding-bottom: 8%;
   }
